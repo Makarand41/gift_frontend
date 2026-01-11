@@ -1,16 +1,16 @@
 import { Routes, Route } from "react-router-dom";
 
 import Home from "../pages/users/Home";
-import Login from "../pages/Login";
-import Register from "../pages/Register";
+import Login from "../pages/users/Login";
+import Register from "../pages/users/Register";
 import EditProduct from "../pages/admin/products/EditProduct";
 
 import AdminRegister from "../pages/admin/AdminRegister";
 import AdminDashboard from "../pages/admin/AdminDashboard";
-import Categories from "../pages/admin/Categories";
+import Categories from "../pages/admin/categories/Categories";
 import AddCategory from "../pages/admin/categories/AddCategory";
-import ViewCategory from "../pages/admin/ViewCategory";
-import EditCategory from "../pages/admin/EditCategory";
+import ViewCategory from "../pages/admin/categories/ViewCategory";
+import EditCategory from "../pages/admin/categories/EditCategory";
 
 import AdminRoute from "./AdminRoute";
 
